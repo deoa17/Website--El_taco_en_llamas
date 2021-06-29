@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El taco en llamas | Taqueria</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="./css/laptop.css" media="(min-width: 1024px)">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" href="./assets/icons/Logo_Blue llama CHICA.png" type="image/png" />
+</head>
+
+<body>
+    <header>
+        <h1>Tacos al pastor, bistec, cecina, pechuga y mas ...</h1>
+        <div class="header__nav">
+            <img class="header_img" src="./assets/icons/Logo_taco_en_llamas_web_chica.png" alt="logo el taco en llamas"
+                width="131" height="80">
+            <nav class="header__nav">
+                <ul class="nav__ol">
+                    <li>
+                        <a class="link" href="#menu">Menu</a>
+                    </li>
+                    <li>
+                        <a class="ubicacion" href="#mapa">Ubicación</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero" id="contacto">
+            <h2 class="hero__titulo">Taquería en Toluca, Edo. de México</h2>
+            <div class="hero__split">
+                <div class="hero__img">
+                    <div class="hero__img--1"></div>
+                    <div class="hero__img--2"></div>
+                    <div class="hero__img--3"></div>
+                </div>
+            </div>
+            <div class="hero__contacto">
+                <h3 class="hero__h3">Haz tu pedido a domicilio o marcanos para pedidos especiales</h3>
+                <a class="hero__cta hero__hover"
+                    href="https://www.ubereats.com/mx-en/store/el-taco-en-llamas/x4vX5D2HSQqG60IBXrfdhA"
+                    target="_blank"></a>
+                <a class="hero__tel hero__hover" href="tel:+527227063280">Llamanos</a>
+            </div>
+        </section>
+        <section class="menu" id="menu">
+            <h3 class="menu__title">Menu</h3>
+            <div class="menu__container">
+                <article class="container__platillos">
+                    <figure class="platillos__img">
+                        <img class="img__menu" src="./assets/img/kilo_pastor.jpeg" width="320" height="250"
+                            alt="Kilo de pastor">
+                    </figure>
+                    <h4 class="platillos__title">Kilo de pastor</h4>
+                </article>
+                <article class="container__platillos">
+                    <figure class="platillos__img">
+                        <img class="img__menu" src="./assets/img/kilo_bistec.jpeg" width="320" height="250"
+                            alt="Kilo de bistec">
+                    </figure>
+                    <h4 class="platillos__title">Kilo de bistec</h4>
+                </article>
+                </article>
+                <article class="container__platillos">
+                    <figure class="platillos__img">
+                        <img class="img__menu" src="./assets/img/alambre.jpeg" width="320" height="250" alt="Alambres">
+                    </figure>
+                    <h4 class="platillos__title">Alambres</h4>
+                </article>
+                <article class="container__platillos">
+                    <figure class="platillos__img">
+                        <img class="img__menu" src="./assets/img/tortas.jpeg" width="320" height="250" alt="Tortas">
+                    </figure>
+                    <h4 class="platillos__title">Tortas</h4>
+                </article>
+                <article class="container__platillos">
+                    <figure class="platillos__img">
+                        <img class="img__menu" src="./assets/img/gringa_pastor.jpeg" width="320" height="250"
+                            alt="Gringas">
+                    </figure>
+                    <h4 class="platillos__title">Gringas</h4>
+                </article>
+                <article class="container__platillos">
+                    <figure class="platillos__img">
+                        <img class="img__menu" src="./assets/img/orden_pastor.jpg" width="320" height="250"
+                            alt="Orden de pastor">
+                    </figure>
+                    <h4 class="platillos__title">Orden de pastor</h4>
+                </article>
+                <article class="container__platillos">
+                    <figure class="platillos__img">
+                        <img class="img__menu" src="./assets/img/flan_napolitano.jpg" width="320" height="250"
+                            alt="Flan flan_napolitano">
+                    </figure>
+                    <h4 class="platillos__title">Orden de pastor</h4>
+                </article>
+            </div>
+        </section>
+        <section class="mapa" id="mapa">
+            <h3 class="menu__title">Ubicación</h3>
+            <p><b>Google maps: </b>Isidro Fabela Sur #401, Col: San Sebastián, CP: 50150, Toluca, Edo. de México</p>
+            <div class="mapa__google" id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+                <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <p>eltacoenllamas@hotmail.com</p>
+            <p>© 2021 El Taco En Llamas</p>
+        </div>
+    </footer>
+    <script>(function () {
+            var setting = { "height": 400, "width": 591, "zoom": 16, "queryString": "El Taco En Llamas, Isidro Fabela, Vértice, Toluca de Lerdo, Méx., México", "place_id": "ChIJ5evI7oyJzYURZyfuBWnbb0E", "satellite": false, "centerCoord": [19.28747400555729, -99.6415327], "cid": "0x416fdb6905ee2767", "lang": "es", "cityUrl": "/mexico/toluca-26942", "cityAnchorText": "Mapa de Toluca, Estado de México, México", "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3", "embed_id": "527972" };
+            var d = document;
+            var s = d.createElement('script');
+            s.src = 'https://1map.com/js/script-for-user.js?embed_id=527972';
+            s.async = true;
+            s.onload = function (e) {
+                window.OneMap.initMap(setting)
+            };
+            var to = d.getElementsByTagName('script')[0];
+            to.parentNode.insertBefore(s, to);
+        })();</script>
+</body>
+
+</html>

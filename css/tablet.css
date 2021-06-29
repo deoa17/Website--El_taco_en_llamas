@@ -1,0 +1,56 @@
+html {
+    margin-top: 95.6px;
+}
+h1 {
+    font-size: 1.2rem;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+.header_img {
+    margin-left: 20px;
+}
+.nav__ol {
+    width: 450px;
+    font-size: 1.8rem;
+    background: white;
+    align-items: center;
+}
+.hero__img {
+    height: 450px;
+}
+.hero__img--1 { 
+    height: 450px;
+}
+.hero__img--2 { 
+    height: 450px;
+}
+.hero__img--3 { 
+    height: 450px;
+    background-image: url("../assets/img/restaurante_interior_2.jpg");
+}
+.hero__titulo {
+    font-size: 2.8rem;
+}
+.hero__contacto {
+    flex-direction: row;
+    justify-content:space-evenly
+}
+.hero__h3 {
+    /* margin-top: 25px; */
+    min-width: 200px;
+    max-width: 300px;
+    margin-bottom: 0px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+}
+.img__menu {
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #888888;
+}
+.platillos__title {
+    font-size: 1.8rem;
+    margin-left: 10px;
+}
