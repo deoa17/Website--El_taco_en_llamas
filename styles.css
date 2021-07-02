@@ -197,6 +197,10 @@ h1 {
 .container__platillos {
     padding-bottom: 20px;
 }
+.img__menu {
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #888888;
+}
 .mapa {
     display: flex;
     flex-direction: column;

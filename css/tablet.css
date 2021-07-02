@@ -46,10 +46,6 @@ h1 {
     font-weight: bold;
     color: white;
 }
-.img__menu {
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px #888888;
-}
 .platillos__title {
     font-size: 1.8rem;
     margin-left: 10px;

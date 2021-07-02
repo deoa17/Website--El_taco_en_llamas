@@ -29,6 +29,9 @@
 .hero__tel {
     margin-top: 5px;
 }
+.hero__hover {
+    margin: 5PX;
+}
 .menu__container {
     display: flex;
     flex-wrap: wrap;
