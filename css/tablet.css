@@ -53,6 +53,14 @@ h1 {
     font-weight: bold;
     color: white;
 }
+.video__container {
+    width: 500px;
+}
+h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+}
 .platillos__title {
     font-size: 1.8rem;
     margin-left: 10px;
