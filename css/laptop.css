@@ -1,3 +1,7 @@
+.nav__ol {
+    width: 450px;
+    margin-right: 100px;
+}
 .header_img {
     margin-left: 100px;
 }
@@ -17,6 +21,7 @@
 }
 .hero__img--3 { 
     height: 500px;
+    background-image: url("../assets/img/Menu_el_taco_en_llamas.jpg");
 }
 /* .hero__contacto {
     display: inline-block;

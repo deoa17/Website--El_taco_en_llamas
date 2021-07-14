@@ -1,5 +1,5 @@
 html {
-    margin-top: 95.6px;
+    margin-top: 86px;
 }
 h1 {
     font-size: 1.2rem;
@@ -34,14 +34,21 @@ h1 {
     font-size: 2.8rem;
 }
 .hero__contacto {
-    flex-direction: row;
-    justify-content:space-evenly
+    flex-direction: row-reverse;
+    justify-content: space-evenly
+}
+.hero__cta {
+    position: static;
+    margin: 0px 5px;
+}
+.hero__tel{
+    margin: 0px 5px;
 }
 .hero__h3 {
     /* margin-top: 25px; */
-    min-width: 200px;
-    max-width: 300px;
-    margin-bottom: 0px;
+    min-width: 150px;
+    max-width: 250px;
+    margin: 0px 5px;
     font-size: 1.8rem;
     font-weight: bold;
     color: white;
